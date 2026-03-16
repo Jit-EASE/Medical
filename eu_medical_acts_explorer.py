@@ -634,7 +634,7 @@ def main():
     # Sidebar
     with st.sidebar:
         st.markdown('<div style="font-family:Playfair Display,serif;color:#fff;font-size:1.15rem;">🇪🇺 EU Medical Acts</div>', unsafe_allow_html=True)
-        st.markdown('<div style="font-family:IBM Plex Mono,monospace;color:#7e92ad;font-size:.68rem;margin-bottom:.8rem;">CELLAR SPARQL · EUR-Lex API</div>', unsafe_allow_html=True)
+        st.markdown('<div style="font-family:IBM Plex Mono,monospace;color:#7e92ad;font-size:.68rem;margin-bottom:.8rem;">Tabs</div>', unsafe_allow_html=True)
         page = st.radio("Navigate", ["📚 Browse Acts", "🔍 SPARQL Search", "📖 CELEX Lookup"], label_visibility="collapsed")
         st.markdown("---")
         st.markdown('<div style="font-family:IBM Plex Mono,monospace;font-size:.63rem;color:#556b8a;line-height:1.9;"><b>Endpoint</b><br>publications.europa.eu/webapi/rdf/sparql<br><br><b>Ontology</b> CDM (OWL)<br><b>Classifier</b> EuroVoc<br><br>© 2026 Shubhojit Bagchi<br>PhD Research · Ireland</div>', unsafe_allow_html=True)
