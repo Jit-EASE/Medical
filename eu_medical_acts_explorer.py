@@ -790,7 +790,7 @@ def main():
             else:
                 st.error(f"No results for CELEX: {ci}. Check format (e.g. 32017R0745).")
 
-    ── ABOUT ──
+ #   ── ABOUT ──
     elif "ℹ️" in page:
         st.markdown("""<div class="abox"><h3>About</h3>
 <div class="sl">Purpose</div>
