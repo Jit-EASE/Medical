@@ -642,7 +642,7 @@ def main():
     # Banner
     st.markdown("""<div class="banner">
 <div class="stars">★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★ ★</div>
-<div class="sub">EUR-Lex CELLAR SPARQL API · Live Regulatory Data</div>
+<div class="sub">©️ Shubhojit Bagchi. All Rights Reserved. </div>
 <h1>EU Medical Acts Explorer</h1>
 <div class="desc">Browse, search, and understand EU medical legislation — medical devices, pharmaceuticals, clinical trials, health data, blood safety, and patient rights. Click any act to read its full explanation.</div>
 </div>""", unsafe_allow_html=True)
