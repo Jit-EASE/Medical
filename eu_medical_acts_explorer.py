@@ -795,9 +795,9 @@ def main():
         st.markdown("""<div class="abox"><h3>About</h3>
 <div class="sl">Purpose</div>
 <p>Makes EU medical legislation accessible. Each act has four explanation layers: what it does, what it means in practice, key provisions, and who it affects.</p>
-<div class="sl">Architecture</div>
-<p><b>Data:</b> CELLAR (Publications Office) · <b>Query:</b> SPARQL 1.1 · <b>Ontology:</b> CDM (OWL) · <b>Filter:</b> EuroVoc (11 health concepts) · <b>Frontend:</b> Streamlit · <b>Auth:</b> None (public API)</p>
-<div class="sl">EuroVoc Concepts</div>
+#<div class="sl">Architecture</div>
+#<p><b>Data:</b> CELLAR (Publications Office) · <b>Query:</b> SPARQL 1.1 · <b>Ontology:</b> CDM (OWL) · <b>Filter:</b> EuroVoc (11 health concepts) · <b>Frontend:</b> Streamlit · <b>Auth:</b> None (public API)</p>
+#<div class="sl">EuroVoc Concepts</div>
 <p style="font-family:IBM Plex Mono,monospace;font-size:.78rem;color:var(--ac);">3885 (health policy) · 3730 (pharmaceutical) · 192 (medical device) · 4636 (public health) · 5765 (health legislation) · 5932 (clinical trial) · 1919 (medicinal product) · 1854 (health care) · 4584 (medical research) · 3371 (blood) · 4587 (patient's rights)</p>
 <div class="sl">Disclaimer</div>
 <p>Research tool, not affiliated with the EU. Always refer to official EUR-Lex texts for authoritative legal content.</p></div>""", unsafe_allow_html=True)
